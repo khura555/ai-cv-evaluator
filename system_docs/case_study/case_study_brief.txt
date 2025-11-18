@@ -1,0 +1,68 @@
+Case Study Brief - AI Evaluation Pipeline
+
+Objective:
+Build a backend service that automatically evaluates a candidate's CV and project report using RAG + LLMs. The system compares:
+- Candidate CV → Job Description + CV Scoring Rubric
+- Candidate Project Report → Case Study Brief + Project Scoring Rubric
+
+System Inputs:
+1. Candidate CV (PDF)
+2. Project Report (PDF)
+
+System Internal Documents (Ground Truth):
+1. Job Description (this file is provided separately)
+2. Case Study Brief (this file)
+3. CV Scoring Rubric
+4. Project Scoring Rubric
+
+Pipeline Requirements:
+- RAG retrieval from vector DB
+- PDF parsing to text
+- CV structured data extraction via LLM
+- Project structured data extraction via LLM
+- Scoring via LLM using context retrieved from vector DB
+- Numeric score aggregation using weighted formulas
+- Final summary generation via LLM
+
+API Endpoints:
+POST /upload
+    Accepts two PDFs (CV and project report)
+    Returns IDs
+
+POST /evaluate
+    Accepts job title + document IDs
+    Triggers async evaluation pipeline
+    Returns evaluation job ID
+
+GET /result/{id}
+    Returns job status or final structured result
+
+Evaluation Output:
+- cv_match_rate (0–1)
+- cv_feedback
+- project_score (1–5 weighted)
+- project_feedback
+- overall_summary (3–5 sentences)
+- final recommendation (hire/hold/reject)
+
+Error Handling Requirements:
+- LLM call retries and backoff
+- Task retries for failures
+- Handling long-running operations
+- RAG retrieval robustness
+
+Scoring Parameters:
+CV:
+- Technical Skills (40%)
+- Experience Level (25%)
+- Achievements (20%)
+- Cultural Fit (15%)
+
+Project:
+- Correctness (30%)
+- Code Quality (25%)
+- Resilience (20%)
+- Documentation (15%)
+- Creativity (10%)
+
+This document is used as ground truth for evaluating the Project Report.

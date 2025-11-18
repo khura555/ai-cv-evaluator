@@ -1,0 +1,33 @@
+CV Scoring Rubric
+
+Technical Skills Match (Weight: 40%)
+Alignment with backend requirements: APIs, databases, cloud, AI/LLM exposure.
+1 = Irrelevant skills
+2 = Few overlaps
+3 = Partial match
+4 = Strong match
+5 = Excellent match including AI/LLM work
+
+Experience Level (Weight: 25%)
+Years of experience and complexity of work.
+1 = <1 year / trivial projects
+2 = 1–2 years
+3 = 2–3 years with mid-scale projects
+4 = 3–4 years strong record
+5 = 5+ years with high-impact work
+
+Relevant Achievements (Weight: 20%)
+Impact of past work, scaling, performance improvements.
+1 = No clear achievements
+2 = Minimal improvements
+3 = Some measurable outcomes
+4 = Significant contributions
+5 = Major measurable impact
+
+Cultural Fit (Weight: 15%)
+Communication, teamwork, learning attitude.
+1 = Not demonstrated
+2 = Minimal
+3 = Average
+4 = Good
+5 = Excellent and clearly demonstrated

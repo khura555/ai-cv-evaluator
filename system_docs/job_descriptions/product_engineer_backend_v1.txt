@@ -1,0 +1,28 @@
+Product Engineer (Backend) - 2025 Job Description
+
+Rakamin is hiring a Product Engineer (Backend). Responsibilities include:
+- Building new product features with frontend engineers and PMs.
+- Maintaining server-side logic with high performance throughput.
+- Designing and fine-tuning AI prompts that align with product requirements.
+- Building LLM chaining flows where outputs are passed reliably between steps.
+- Implementing Retrieval-Augmented Generation (RAG) using vector databases.
+- Handling long-running AI processes including background workers and retries.
+- Designing safeguards for uncontrolled scenarios and API failures.
+- Leveraging AI tools to increase team productivity.
+- Writing clean, efficient, testable backend code.
+- Working through full product development lifecycle: idea → design → implementation → testing → deployment → maintenance.
+- Interacting with users and stakeholders to understand their needs and translate into backend and AI-driven improvements.
+
+Requirements:
+- Strong backend experience (Node.js, Django, Rails, etc.)
+- Database management (MySQL, PostgreSQL, MongoDB)
+- RESTful APIs
+- Cloud platforms (AWS, GCP, Azure)
+- Security, authentication, and scalable application design
+- Familiarity with LLM APIs, embeddings, vector DBs, prompt design
+- Ability to write reusable, testable code
+
+Soft Expectations:
+- Self-management / “Manager of One”
+- Proactive communication and collaboration
+- Based in Indonesia; remote-friendly environment

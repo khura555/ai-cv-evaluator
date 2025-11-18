@@ -1,0 +1,48 @@
+Project Deliverable Scoring Rubric
+
+Correctness (Prompting & Chaining) (Weight: 30%)
+Implementation of:
+- Prompt design
+- LLM chaining
+- RAG context retrieval
+1 = Not implemented
+2 = Minimal attempt
+3 = Works partially
+4 = Works correctly
+5 = Fully correct with thoughtful implementation
+
+Code Quality & Structure (Weight: 25%)
+Cleanliness, modularity, organization, testability.
+1 = Poor
+2 = Some structure
+3 = Decent modularity
+4 = Good structure with tests
+5 = Excellent quality and strong tests
+
+Resilience & Error Handling (Weight: 20%)
+Handling:
+- Long-running tasks
+- Retries
+- API failures
+- LLM randomness / validation
+1 = Missing
+2 = Minimal
+3 = Partial handling
+4 = Solid handling
+5 = Production-ready resilience
+
+Documentation & Explanation (Weight: 15%)
+Quality of README, clarity, and trade-off explanations.
+1 = Missing
+2 = Minimal
+3 = Adequate
+4 = Clear and complete
+5 = Excellent and insightful
+
+Creativity / Bonus Features (Weight: 10%)
+Optional improvements beyond the core requirements.
+1 = None
+2 = Basic extras
+3 = Useful additional features
+4 = Strong enhancements
+5 = Outstanding creativity
