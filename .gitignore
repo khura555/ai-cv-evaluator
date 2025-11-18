@@ -181,4 +181,4 @@ cython_debug/
 .cursorindexingignore
 Case Study Brief - Backend.pdf
 scripts/
-reset_vector.py
+uploads
